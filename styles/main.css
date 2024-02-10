@@ -60,6 +60,21 @@ nav ul li a:hover {
     color: black;
 }
 
+.profile-nav:hover {
+    background-color: rgb(243, 240, 181);
+  }
+  
+  a.profile-nav {
+    padding: 5px;
+    height: 42px;
+    width: 42px;
+  }
+  
+  img.profile-nav {
+    width: 30px;
+  }
+  
+
 h1,
 h2 {
     text-align: center;
@@ -279,6 +294,10 @@ footer {
     margin: .5rem;
 }
 
+.profile-nav {
+    border-radius: 100%;
+  }
+  
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
