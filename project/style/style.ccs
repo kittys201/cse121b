@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#citiesList {
+  margin-top: 20px;
+}
+
+.city {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+#citiesList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Espacio entre las ciudades */
+}
+
+.city {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#home > div {
+  width: 250%; /* Aumentar el ancho en 1.5 veces */
+}
+
+#citiesList > div {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra con desenfoque */
+  border: 1px solid #ccc; /* Borde de 1px sólido en color gris */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interior */
+  margin-bottom: 20px; /* Espacio entre las ciudades */
+  background-color: rgb(248, 244, 250);
+
+}
+
+button {
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px; /* Espacio interior */
+    border: none; /* Eliminar borde */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Cambiar color de fondo al pasar por encima */
+  }
